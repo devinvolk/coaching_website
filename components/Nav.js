@@ -1,5 +1,6 @@
 "use client"
 
+import Link from 'next/link';
 import React, {useState, useEffect} from 'react'
 
 const Nav = () => {
@@ -8,7 +9,7 @@ const Nav = () => {
     const NavItems = [
         {
             title: "Home",
-            page: 'home',
+            page: '',
         },
         {
             title: 'Coaching',
@@ -49,7 +50,7 @@ const Nav = () => {
         {/* desktop nav */}
         <div className='flex flex-row justify-end space-x-6 mr-4'>
             {NavItems.map((item, index) => (
-                <div className='text-xl cursor-pointer transition-colors duration-300 hover:text-gray-700' key={index}>{item.title}</div>
+                <Link className='text-xl cursor-pointer transition-colors duration-300 hover:text-gray-700' key={index} href={`/${item.page}`}>{item.title}</Link>
             ))}
         </div>
     </nav>
