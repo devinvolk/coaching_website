@@ -1,8 +1,14 @@
+import Image from 'next/image'
 import React from 'react'
+import coaching from '../../public/coaching.JPG'
 
 const page = () => {
   return (
-    <div>Coaching</div>
+    <Image
+    src={coaching}
+    alt='Devin cycling up Hawii during the 2022 Ironman World Championships'
+    priority
+    />
   )
 }
 
