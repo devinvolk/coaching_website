@@ -82,7 +82,7 @@ const Nav = () => {
     
 
   return (
-    <nav className={`fixed z-50 h-14 py-2 md:py-4 md:h-16 w-full ${isMenuOpen ? 'bg-white shadow-md' : (isScrolled ? 'bg-white shadow-md' : 'bg-transparent')}`}>
+    <nav className={`fixed z-50 h-14 py-2 md:py-4 md:h-16 w-full ${isMenuOpen ? 'bg-white shadow-md' : (isScrolled ? 'bg-white shadow-md' : 'bg-transparent')}`} style={{ maxWidth: '2300px'}}>
         {/* desktop nav */}
         <div className={`hidden md:flex flex-row justify-end space-x-8 mr-6 ${navVisible ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
             {NavItems.map((item, index) => 

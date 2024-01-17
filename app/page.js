@@ -17,15 +17,15 @@ export default function Home() {
           Up
         </h1>
         <hr className="my-10 border-t-2 border-neutral-500 rounded-full" />
-        <div className="flex flex-col md:flex-row">
-          <div className="hidden md:block mx-20">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-6 gap-4">
+          <div className="flex justify-center lg:col-start-1 lg:col-end-4 xl:ml-10">
             <Image
               src={finish}
-              height={6000}
               alt="Devin Volk carrying a female competitor across the finish line at the 2022 Ironman World Championships in Kona after he had finished"
+              style={{ maxHeight: '650px', maxWidth: '473px'}}
             />
           </div>
-          <div className="flex flex-col">
+          <div className="lg:col-start-4 lg:col-end-7">
             <h2 className="text-3xl italic semi-bold text-center mb-4">About Devin</h2>
             <p className="text-center text-[#626262]">
               Born in Bergen, Norway in 1996, Gustav won his first national

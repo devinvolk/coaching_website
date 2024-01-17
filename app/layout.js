@@ -15,9 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav />
-        {children}
-        <Footer />
+        <div style={{ maxWidth: '2300px', margin: '0 auto'}}>
+          <Nav />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
