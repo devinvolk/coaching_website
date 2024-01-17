@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Nav = () => {
     const [navVisible, setNavVisible] = useState(false);
-    const [isActive, setIsActive] = useState('//');
+    const [isActive, setIsActive] = useState('/');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -82,7 +82,7 @@ const Nav = () => {
     
 
   return (
-    <nav className={`fixed z-50 h-14 py-2 md:py-4 md:h-20 w-full ${isMenuOpen ? 'bg-white shadow-md' : (isScrolled ? 'bg-white shadow-md' : 'bg-transparent')}`}>
+    <nav className={`fixed z-50 h-14 py-2 md:py-4 md:h-16 w-full ${isMenuOpen ? 'bg-white shadow-md' : (isScrolled ? 'bg-white shadow-md' : 'bg-transparent')}`}>
         {/* desktop nav */}
         <div className={`hidden md:flex flex-row justify-end space-x-8 mr-6 ${navVisible ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
             {NavItems.map((item, index) => 
@@ -92,15 +92,13 @@ const Nav = () => {
             href={item.page}
             target='_blank'
             rel='noopener noreferrer'
-            className={`text-xl text-neutral-200 cursor-pointer transition-colors duration-300 hover:text-neutral-500 ${
-              isActive === `/${item.page}` ? 'border-b-2 border-neutral-200 hover:border-neutral-500' : ''
-            }`}
+            className={`text-xl cursor-pointer transition-colors duration-300 hover:text-neutral-500 ${isScrolled ? 'text-neutral-950' : 'text-neutral-200'}`}
           >
             {item.title}
           </a>
           ) : (
                 <Link key={index} href={item.page}
-                  className={`text-xl text-neutral-200 cursor-pointer transition-colors duration-300 hover:text-neutral-500 ${isActive === `/${item.page}` ? 'border-b-2 border-neutral-200 hover:border-neutral-500' : ''}`}
+                  className={`text-xl cursor-pointer transition-colors duration-300 hover:text-neutral-500 ${isScrolled ? 'text-neutral-950' : 'text-neutral-200'} ${isActive === item.page ? (isScrolled ? 'border-b-2 border-neutral-950 hover:border-neutral-500' : 'border-b-2 border-neutral-200 hover:border-neutral-500') : ''}`}
                   onClick={() => {handleClick(item.page)}}
                 >
                   {item.title}
