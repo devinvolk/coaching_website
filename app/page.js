@@ -26,7 +26,7 @@ export default function Home() {
             />
           </div>
           <div className="lg:col-start-4 lg:col-end-7">
-            <h2 className="text-3xl italic semi-bold text-center mb-4">
+            <h2 className="text-3xl italic font-semibold text-center mb-4">
               About Devin
             </h2>
             <p className="text-center text-[#626262]">
