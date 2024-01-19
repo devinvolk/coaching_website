@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import coaching from '../../public/coaching.JPG'
+import coaching from '../../public/images/coaching.JPG'
 
 const page = () => {
   return (

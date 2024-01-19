@@ -1,6 +1,6 @@
 import Image from "next/image";
-import home from "../public/home.JPG";
-import finish from "../public/finish.JPG";
+import home from "../public/images/home.JPG";
+import finish from "../public/images/finish.JPG";
 
 export default function Home() {
   return (
