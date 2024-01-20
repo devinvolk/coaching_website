@@ -22,14 +22,14 @@ export default function Home() {
             <Image
               src={finish}
               alt="Devin Volk carrying a female competitor across the finish line at the 2022 Ironman World Championships in Kona after he had finished"
-              style={{ maxHeight: "650px", maxWidth: "473px" }}
+              style={{ maxHeight: "650px", maxWidth: "433.56px" }}
             />
           </div>
           <div className="lg:col-start-4 lg:col-end-7">
             <h2 className="text-3xl italic font-semibold text-center mb-4">
               About Devin
             </h2>
-            <p className="text-center text-[#626262]">
+            <p className="text-center text-neutral-700">
               Born in Corvallis, Oregon in 1994, Devin grew up participating
               primarily in team sports. In high school, he was a 4 sport varisty
               athlete and accumilated 10 varisty letters in Soccer, Cross

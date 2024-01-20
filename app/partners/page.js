@@ -60,7 +60,7 @@ const page = () => {
             />
           </div>
           <div className="lg:col-start-6 lg:col-end-13 lg:self-center">
-            <p>
+            <p className="text-neutral-800">
               {value[1]}
             </p>
           </div>
