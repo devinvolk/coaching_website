@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 import partners from "../../public/images/partners.JPG";
 import everyManJackIcon from "../../public/partnerImages/everyManJackIcon.jpeg";
-import theFeedIcon from "../../public/partnerImages/theFeedIcon.PNG";
-import wynRepublicIcon from "../../public/partnerImages/wynRepublicIcon.PNG";
-import enveIcon from "../../public/partnerImages/enveIcon.PNG";
+import theFeedIcon from "../../public/partnerImages/theFeedIcon.png";
+import wynRepublicIcon from "../../public/partnerImages/wynRepublicIcon.png";
+import enveIcon from "../../public/partnerImages/enveIcon.png";
 import rokaIcon from "../../public/partnerImages/rokaIcon.jpeg";
-import hypericeIcon from "../../public/partnerImages/hypericeIcon.PNG";
+import hypericeIcon from "../../public/partnerImages/hypericeIcon.png";
 import feltIcon from "../../public/partnerImages/feltIcon.jpeg";
 
 const page = () => {
