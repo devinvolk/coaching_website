@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import React, { useRef } from "react";
 import contactHero from "../../public/images/contactHero.JPG";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const page = () => {
   const form = useRef();
@@ -12,10 +12,10 @@ const page = () => {
 
     emailjs
       .sendForm(
-        'service_wbn2h0i',
-        'template_sc82i6a',
+        "service_wbn2h0i",
+        "template_sc82i6a",
         form.current,
-        '1CIt61pNsbip7CxKi'
+        "1CIt61pNsbip7CxKi"
       )
       .then(
         (result) => {

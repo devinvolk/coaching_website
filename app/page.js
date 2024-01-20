@@ -53,9 +53,9 @@ export default function Home() {
               experience allowed him first hand access to the routine, mindset,
               and determination of a World Champion and was undoubtidly a strong
               contributing factor to his own succuess on the island. Devin
-              finished his amatuer career as the runner up in the 25-29
-              age group in Hawaii and had one of the most consistent
-              performances across all three disciplines of any finisher.
+              finished his amatuer career as the runner up in the 25-29 age
+              group in Hawaii and had one of the most consistent performances
+              across all three disciplines of any finisher.
               <br />
               <br />
               Devin was also a part the viral events that unfolded at the finish
