@@ -29,7 +29,7 @@ export default function Home() {
             <h2 className="text-3xl italic font-semibold text-center mb-4">
               About Devin
             </h2>
-            <p className="text-center text-neutral-700">
+            <p className="text-neutral-700">
               Born in Corvallis, Oregon in 1994, Devin grew up participating
               primarily in team sports. In high school, he was a 4 sport varisty
               athlete and accumilated 10 varisty letters in Soccer, Cross
@@ -66,7 +66,7 @@ export default function Home() {
                   href="https://www.slowtwitch.com/Interview/Be_Like_Devin_Volk_8562.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-neutral-800 underline"
+                  className="font-bold text-neutral-800"
                 >
                   Click Here!
                 </a>
