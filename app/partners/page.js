@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import partners from "../../public/images/partners.JPG";
-import everyManJackIcon from "../../public/partner_images/everyManJack_icon.jpeg";
-import theFeedIcon from "../../public/partner_images/theFeed_icon.PNG";
-import wynRepublicIcon from "../../public/partner_images/wynRepublic_icon.PNG";
-import enveIcon from "../../public/partner_images/enve_icon.PNG";
-import rokaIcon from "../../public/partner_images/roka_icon.jpeg";
-import hypericeIcon from "../../public/partner_images/hyperice_icon.PNG";
-import feltIcon from "../../public/partner_images/felt_icon.jpeg";
+import everyManJackIcon from "../../public/partnerImages/everyManJackIcon.jpeg";
+import theFeedIcon from "../../public/partnerImages/theFeedIcon.PNG";
+import wynRepublicIcon from "../../public/partnerImages/wynRepublicIcon.PNG";
+import enveIcon from "../../public/partnerImages/enveIcon.PNG";
+import rokaIcon from "../../public/partnerImages/rokaIcon.jpeg";
+import hypericeIcon from "../../public/partnerImages/hypericeIcon.PNG";
+import feltIcon from "../../public/partnerImages/feltIcon.jpeg";
 
 const page = () => {
   const partnerList = {
