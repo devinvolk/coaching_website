@@ -99,7 +99,7 @@ const Nav = () => {
       >
         {NavItems.map((item, index) =>
           item.title === "Social" ? (
-            <a
+            <Link
               key={index}
               href={item.page}
               target="_blank"
@@ -109,7 +109,7 @@ const Nav = () => {
               }`}
             >
               {item.title}
-            </a>
+            </Link>
           ) : (
             <Link
               key={index}
