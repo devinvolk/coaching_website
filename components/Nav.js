@@ -138,12 +138,14 @@ const Nav = () => {
               color={isMenuOpen ? "black" : isScrolled ? "black" : "white"}
               size={30}
               onClick={toggleMenu}
+              aria-label="Close menu"
             />
           ) : (
             <GiHamburgerMenu
               color={isScrolled ? "black" : "white"}
               size={30}
               onClick={toggleMenu}
+              aria-label="Open menu"
             />
           )}
         </button>
