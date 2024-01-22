@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import results from "../../public/images/results.WebP";
+import results from "../../public/images/results.webp";
 
 const page = () => {
   const resultsList = {

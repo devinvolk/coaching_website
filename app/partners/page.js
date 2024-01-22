@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import partners from "../../public/images/partners.WebP";
-import everyManJackIcon from "../../public/partnerImages/everyManJackIcon.WebP";
-import theFeedIcon from "../../public/partnerImages/theFeedIcon.WebP";
-import wynRepublicIcon from "../../public/partnerImages/wynRepublicIcon.WebP";
-import enveIcon from "../../public/partnerImages/enveIcon.WebP";
-import rokaIcon from "../../public/partnerImages/rokaIcon.WebP";
-import hypericeIcon from "../../public/partnerImages/hypericeIcon.WebP";
-import feltIcon from "../../public/partnerImages/feltIcon.WebP";
+import partners from "../../public/images/partners.webp";
+import everyManJackIcon from "../../public/partnerImages/everyManJackIcon.webp";
+import theFeedIcon from "../../public/partnerImages/theFeedIcon.webp";
+import wynRepublicIcon from "../../public/partnerImages/wynRepublicIcon.webp";
+import enveIcon from "../../public/partnerImages/enveIcon.webp";
+import rokaIcon from "../../public/partnerImages/rokaIcon.webp";
+import hypericeIcon from "../../public/partnerImages/hypericeIcon.webp";
+import feltIcon from "../../public/partnerImages/feltIcon.webp";
 
 const page = () => {
   const partnerList = {
