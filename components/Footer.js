@@ -26,7 +26,7 @@ const Footer = () => {
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
-              alt="Githun Icon"
+              aria-label="Link to Devin's Github"
             />
           </a>
           <a
@@ -39,7 +39,7 @@ const Footer = () => {
             <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
-              alt="LinkedIn Icon"
+              aria-label="Link to Devin's LinkedIn"
             />
           </a>
           <a
@@ -52,7 +52,7 @@ const Footer = () => {
             <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
-              alt="Instagram Icon"
+              aria-label="Link to Devin's Instagram"
             />
           </a>
         </div>
