@@ -20,30 +20,39 @@ const Footer = () => {
             href="https://github.com/devinvolk"
             rel="noreferrer"
             target="_blank"
+            role="button"
+            tabIndex={0}
           >
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
+              alt="Githun Icon"
             />
           </a>
           <a
             href="https://www.linkedin.com/in/devin-volk-8a4711278/"
             rel="noreferrer"
             target="_blank"
+            role="button"
+            tabIndex={0}
           >
             <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
+              alt="LinkedIn Icon"
             />
           </a>
           <a
             href="https://www.instagram.com/devinvolk/?hl=en"
             rel="noreferrer"
             target="_blank"
+            role="button"
+            tabIndex={0}
           >
             <AiOutlineInstagram
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
               size={30}
+              alt="Instagram Icon"
             />
           </a>
         </div>

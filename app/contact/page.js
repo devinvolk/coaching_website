@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useRef } from "react";
-import contactHero from "../../public/images/contactHero.JPG";
+import contactHero from "../../public/images/contactHero.WebP";
 import emailjs from "@emailjs/browser";
 
 const page = () => {

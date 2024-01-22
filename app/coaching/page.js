@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import coaching from "../../public/images/coaching.JPG";
-import afterFinish from "../../public/images/afterFinish.JPG";
+import coaching from "../../public/images/coaching.WebP";
+import afterFinish from "../../public/images/afterFinish.WebP";
 import Link from "next/link";
 
 const page = () => {
