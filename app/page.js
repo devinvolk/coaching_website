@@ -23,6 +23,7 @@ export default function Home() {
               src={finish}
               alt="Devin Volk carrying a female competitor across the finish line at the 2022 Ironman World Championships in Kona after he had finished"
               style={{ maxHeight: "650px", maxWidth: "433.56px" }}
+              sizes="90vw"
             />
           </div>
           <div className="lg:col-start-4 lg:col-end-7">
@@ -77,7 +78,7 @@ export default function Home() {
         <hr className="my-10 border-t-2 border-neutral-500 rounded-full" />
         <h2 className="text-3xl text-center font-semibold w-4/5 mx-auto text-neutral-900">
           Devin is now racing as a professional and has achieved 2 top 10
-          performances in just his first season.
+          performances in just his first season
         </h2>
         <hr className="my-10 border-t-2 border-neutral-500 rounded-full" />
       </div>

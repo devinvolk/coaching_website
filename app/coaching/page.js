@@ -24,6 +24,7 @@ const page = () => {
               src={afterFinish}
               alt="Devin Volk smiling with his medal and lei after finish the 2022 Ironman World Championships in Kona, Hawaii"
               style={{ maxHeight: "650px", maxWidth: "433.56px" }}
+              sizes="90vw"
             />
           </div>
           <div className="lg:col-start-4 lg:col-end-7">
